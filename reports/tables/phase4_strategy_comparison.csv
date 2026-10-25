@@ -1,0 +1,5 @@
+Strategy,Evaluation_Mode,Ranking_Rule,Targeted_Customers,Eligible_Customers,Expected_Prevented_Churn,Campaign_Cost,Gross_Benefit,Net_Benefit,ROI_Pct,ROI_Display,Budget_Utilization_Pct,Budget_Remaining
+1. No Campaign (Baseline),like_for_like,No outreach conducted,0,7043,0.0,0.0,0.0,0.0,,N/A — no campaign expenditure,0.0,200000.0
+2. Highest Churn Risk First,like_for_like,Top 500 accounts by churn risk,500,7043,31.7,160000.0,21815.31,-138184.69,-86.37,-86.4%,80.0,40000.0
+3. Highest Value at Risk First,like_for_like,Top 500 accounts by Value at Risk / Risk Proxy,500,7043,30.1,160000.0,23774.75,-136225.25,-85.14,-85.1%,80.0,40000.0
+4. Balanced Risk & Value,like_for_like,Top 500 accounts by 50% Risk + 50% VaR,500,7043,31.3,160000.0,23347.53,-136652.47,-85.41,-85.4%,80.0,40000.0

@@ -1,0 +1,4 @@
+Variant,PR_AUC_Mean,PR_AUC_Std,ROC_AUC_Mean,ROC_AUC_Std,F1_Mean,Recall_Mean,Precision_Mean
+Full Engineered Model,0.6626,0.0169,0.8461,0.0104,0.6364,0.7726,0.5412
+Ablation: No ChargesRatio,0.6626,0.0169,0.8461,0.0104,0.6364,0.7726,0.5412
+Baseline (Raw Features Only),0.6653,0.0233,0.8473,0.0117,0.6327,0.7699,0.5371

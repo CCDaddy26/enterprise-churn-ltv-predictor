@@ -1,0 +1,3 @@
+model,sample_size,brier_score,log_loss,expected_calibration_error
+uncalibrated_xgboost_dev_oof,5634,0.1542,0.4634,0.1152
+sigmoid_calibrated_dev_crossfitted,5634,0.1357,0.4197,0.011

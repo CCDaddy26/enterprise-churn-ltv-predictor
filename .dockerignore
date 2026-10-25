@@ -1,0 +1,38 @@
+# Git and Version Control
+.git/
+.gitignore
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Environment Files & Secrets
+.env
+.env.local
+*.log
+
+# IDE & OS Artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Non-runtime documentation, experiments & notebooks
+notebooks/
+reports/figures/
+docs/
+
+# Local build artifacts
+build/
+dist/
+*.egg-info/

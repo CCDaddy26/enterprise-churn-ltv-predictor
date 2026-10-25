@@ -1,0 +1,24 @@
+Feature Name,Category,Source,Data Type,Imputation Strategy,Encoding/Scaling,Reason for Inclusion
+tenure,Account,Raw Schema,int64,Median Imputation,StandardScaler (LR only) / Raw splits (Trees),Primary continuous duration feature reflecting customer maturity
+MonthlyCharges,Financial,Raw Schema,float64,Median Imputation,StandardScaler (LR only) / Raw splits (Trees),Current monthly billing level reflecting price tier
+TotalCharges,Financial,Raw Schema (String),float64,Whitespace replaced with 0.0 -> Median Imputation,StandardScaler (LR only) / Raw splits (Trees),Cumulative lifetime revenue billed up to observation point
+TotalServices,Product Stickiness,Engineered,int64,None (Computed from service flags),StandardScaler (LR only) / Discrete (Trees),Captures overall integration depth and switching costs across 6 add-ons
+TenureCohort,Lifecycle,Engineered,category,None (Fixed brackets),One-Hot Encoded (drop='first'),Captures non-linear hazard rates such as the 0-6 month onboarding cliff
+HasPartnerAndDependents,Demographic,Engineered,int64,None (Logical boolean),Binary Indicator,Captures household stability and multi-user household presence
+ChargesRatio,Financial / Billing,Engineered,float64,None (Clipping [0.1 to 3.0]),StandardScaler (LR only) / Continuous,TotalCharges / (tenure * MonthlyCharges) captures historical discounts or price hikes
+gender,Demographic,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),Baseline demographic variable for parity audits
+SeniorCitizen,Demographic,Raw Schema,int64,Most Frequent,One-Hot Encoded (drop='first'),Age bracket factor (>= 65 years old)
+Partner,Demographic,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),Spousal / partner status
+Dependents,Demographic,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),Presence of dependents
+PhoneService,Product,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),Voice telephony subscription status
+MultipleLines,Product,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),Multiple voice lines indicator
+InternetService,Infrastructure,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),Core internet architecture (DSL / Fiber optic / None)
+OnlineSecurity,Service Add-on,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),Security protection module status
+OnlineBackup,Service Add-on,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),Cloud backup module status
+DeviceProtection,Service Add-on,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),Hardware insurance module status
+TechSupport,Service Add-on,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),Dedicated tech support module status
+StreamingTV,Product Tier,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),TV entertainment bundle status
+StreamingMovies,Product Tier,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),Movie streaming bundle status
+Contract,Commercial Agreement,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),Contract commitment length (Month-to-month / One year / Two year)
+PaperlessBilling,Operational,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),Electronic billing preference indicator
+PaymentMethod,Payment Channel,Raw Schema,object,Most Frequent,One-Hot Encoded (drop='first'),Payment method on file (Electronic check / Mailed check / Bank auto / Card auto)

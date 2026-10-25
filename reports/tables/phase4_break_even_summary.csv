@@ -1,0 +1,4 @@
+Trigger,Targeted_Customers,Expected_Campaign_Cost,Expected_Gross_Benefit,Expected_Net_Benefit,Break_Even_Save_Rate,Assumed_Save_Rate,Margin_of_Safety_Pts
+responders_only,500,160000.0,23774.75,-136225.25,Unreachable (>100%),0.25,N/A
+saved_only,500,90054.29,23774.75,-66279.54,Unreachable (>100%),0.25,N/A
+all_contacted,500,325000.0,23774.75,-301225.25,Unreachable (>100%),0.25,N/A

@@ -1,0 +1,38 @@
+feature,mean_abs_shap
+Contract_Two year,0.5686
+tenure,0.4437
+InternetService_Fiber optic,0.3262
+Contract_One year,0.2507
+PaymentMethod_Electronic check,0.2057
+MonthlyCharges,0.1828
+TotalCharges,0.1768
+InternetService_No,0.1492
+PaperlessBilling_Yes,0.1335
+ChargesRatio,0.1268
+OnlineSecurity_Yes,0.1093
+StreamingMovies_Yes,0.0933
+MultipleLines_Yes,0.0887
+TechSupport_Yes,0.0865
+StreamingTV_Yes,0.0724
+Dependents_Yes,0.0493
+SeniorCitizen_1,0.0468
+OnlineBackup_Yes,0.0392
+PhoneService_Yes,0.0323
+TotalServices,0.0232
+PaymentMethod_Mailed check,0.0218
+gender_Male,0.0201
+OnlineSecurity_No internet service,0.0188
+OnlineBackup_No internet service,0.015
+HasPartnerAndDependents,0.0125
+MultipleLines_No phone service,0.0098
+PaymentMethod_Credit card (automatic),0.0077
+Partner_Yes,0.0064
+TenureCohort_25-48m,0.0058
+DeviceProtection_Yes,0.0051
+TenureCohort_13-24m,0.0048
+TenureCohort_7-12m,0.0047
+TenureCohort_49m+,0.0033
+DeviceProtection_No internet service,0.0
+StreamingMovies_No internet service,0.0
+TechSupport_No internet service,0.0
+StreamingTV_No internet service,0.0

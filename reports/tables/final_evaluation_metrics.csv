@@ -1,0 +1,6 @@
+Model,threshold,precision,recall,f1,roc_auc,average_precision_pr_auc,accuracy,true_positives,false_positives,true_negatives,false_negatives
+dummy_most_frequent,0.5,0.0,0.0,0.0,0.5,0.2654,0.7346,0.0,0.0,1035.0,374.0
+logistic_regression,0.5,0.5067,0.8048,0.6219,0.8451,0.6511,0.7402,301.0,293.0,742.0,73.0
+random_forest,0.5,0.5284,0.7701,0.6268,0.8446,0.6588,0.7566,288.0,257.0,778.0,86.0
+xgboost_champion_threshold_0.50,0.5,0.5282,0.7754,0.6284,0.8452,0.6571,0.7566,290.0,259.0,776.0,84.0
+xgboost_champion_illustrative_threshold_0.40,0.4,0.4875,0.8342,0.6154,0.8452,0.6571,0.7232,312.0,328.0,707.0,62.0

@@ -1,0 +1,19 @@
+{
+  "dataset_name": "IBM Telco Customer Churn",
+  "random_seed": 42,
+  "total_records": 7043,
+  "development_partition": {
+    "samples": 5634,
+    "percentage": 80.0,
+    "churn_positive_count": 1495,
+    "churn_negative_count": 4139,
+    "churn_prevalence": 0.2654
+  },
+  "quarantined_test_partition": {
+    "samples": 1409,
+    "percentage": 20.0,
+    "churn_positive_count": 374,
+    "churn_negative_count": 1035,
+    "churn_prevalence": 0.2654
+  }
+}

@@ -1,0 +1,63 @@
+# Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# Environment & Secrets
+.env
+.env.local
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Processed & Temporary Artifacts (Preserve raw data in local dev, but prevent generated cache)
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Serialized Model Artifacts (reproducible locally via src/run_phase2.py)
+models/*
+!models/.gitkeep
+!models/champion_pipeline.joblib
+!models/sigmoid_calibrator.joblib
+!models/model_metadata.json
+
+# Local dataset - obtain separately using README instructions
+data/raw/*
+!data/raw/.gitkeep

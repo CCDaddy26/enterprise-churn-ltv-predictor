@@ -1,0 +1,27 @@
+# Production Dependencies for Northstar SaaS Churn & LTV Predictor
+# Python Version Tested: 3.11.6
+
+# Core Web Application & Dashboard
+streamlit==1.58.0
+
+# Scientific Computing & Data Structures
+pandas==2.3.2
+numpy==2.3.2
+scikit-learn==1.7.1
+scipy>=1.10.0
+
+# Machine Learning, Explainability & Serialization
+xgboost==3.2.0
+shap==0.51.0
+joblib==1.5.2
+
+# Data Visualization
+matplotlib==3.10.5
+seaborn==0.13.2
+
+# Operational Environment & Data Storage
+python-dotenv==1.0.0
+pyarrow>=14.0.0
+
+# Testing & Quality Gates
+pytest==9.1.1

@@ -1,0 +1,6 @@
+model,pr_auc_mean,pr_auc_std,roc_auc_mean,roc_auc_std,f1_mean,f1_std,recall_mean,recall_std,precision_mean,precision_std
+dummy_most_frequent,0.2654,0.0001,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+dummy_stratified,0.2686,0.0071,0.5065,0.0171,0.2762,0.0249,0.2776,0.025,0.2748,0.0248
+logistic_regression,0.661,0.0139,0.8466,0.0115,0.6284,0.0194,0.794,0.0318,0.5202,0.0155
+random_forest,0.6591,0.0197,0.8455,0.0118,0.633,0.0176,0.7679,0.0263,0.5385,0.0151
+xgboost,0.6611,0.0205,0.8476,0.0116,0.6313,0.0115,0.7873,0.0178,0.5269,0.0101

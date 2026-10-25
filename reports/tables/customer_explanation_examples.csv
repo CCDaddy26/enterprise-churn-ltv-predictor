@@ -1,0 +1,5 @@
+Archetype,Actual_Churn,Predicted_Probability,Tenure_Months,MonthlyCharges,Contract,InternetService,Top_Positive_Push_Feature,Top_Negative_Push_Feature
+True Positive Churner,1,0.8553,5,80.0,Month-to-month,Fiber optic,tenure,MultipleLines_Yes
+True Negative Retained,0,0.0344,13,40.55,Two year,DSL,ChargesRatio,Contract_Two year
+False Positive False Alarm,0,0.6551,35,49.2,Month-to-month,DSL,PaymentMethod_Electronic check,InternetService_Fiber optic
+False Negative Missed Churner,1,0.0957,30,19.65,Month-to-month,No,Contract_Two year,InternetService_Fiber optic

@@ -1,0 +1,4 @@
+Model,cv_f1_mean,cv_f1_std,cv_roc_auc_mean,cv_roc_auc_std,cv_pr_auc_mean,cv_pr_auc_std,cv_recall_mean,cv_precision_mean
+dummy_most_frequent,0.0,0.0,0.5,0.0,0.2444,0.0444,0.0,0.0
+dummy_stratified,0.2,0.2449,0.481,0.1616,0.3,0.0643,0.2,0.2
+logistic_regression,0.281,0.2421,0.5397,0.2237,0.423,0.2165,0.4333,0.21

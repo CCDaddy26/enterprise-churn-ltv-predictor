@@ -1,0 +1,114 @@
+{
+  "numeric_summary": {
+    "tenure": {
+      "mean": {
+        "False Negative": 36.46,
+        "False Positive": 18.55,
+        "True Negative": 43.49,
+        "True Positive": 13.03
+      },
+      "median": {
+        "False Negative": 38.0,
+        "False Positive": 12.0,
+        "True Negative": 47.0,
+        "True Positive": 7.0
+      }
+    },
+    "MonthlyCharges": {
+      "mean": {
+        "False Negative": 68.45,
+        "False Positive": 72.91,
+        "True Negative": 57.76,
+        "True Positive": 76.75
+      },
+      "median": {
+        "False Negative": 70.18,
+        "False Positive": 78.9,
+        "True Negative": 58.8,
+        "True Positive": 80.7
+      }
+    },
+    "TotalServices": {
+      "mean": {
+        "False Negative": 2.48,
+        "False Positive": 1.74,
+        "True Negative": 2.28,
+        "True Positive": 1.6
+      },
+      "median": {
+        "False Negative": 3.0,
+        "False Positive": 2.0,
+        "True Negative": 2.0,
+        "True Positive": 1.0
+      }
+    }
+  },
+  "categorical_summary": {
+    "Contract": {
+      "Month-to-month": {
+        "False Negative": 55.29,
+        "False Positive": 94.59,
+        "True Negative": 26.9,
+        "True Positive": 98.53
+      },
+      "One year": {
+        "False Negative": 33.24,
+        "False Positive": 5.21,
+        "True Negative": 31.39,
+        "True Positive": 1.47
+      },
+      "Two year": {
+        "False Negative": 11.47,
+        "False Positive": 0.2,
+        "True Negative": 41.71,
+        "True Positive": 0.0
+      }
+    },
+    "InternetService": {
+      "DSL": {
+        "False Negative": 42.94,
+        "False Positive": 27.07,
+        "True Negative": 41.46,
+        "True Positive": 18.7
+      },
+      "Fiber optic": {
+        "False Negative": 43.24,
+        "False Positive": 66.19,
+        "True Negative": 25.0,
+        "True Positive": 77.75
+      },
+      "No": {
+        "False Negative": 13.82,
+        "False Positive": 6.74,
+        "True Negative": 33.54,
+        "True Positive": 3.55
+      }
+    },
+    "PaymentMethod": {
+      "Bank transfer (automatic)": {
+        "False Negative": 25.59,
+        "False Positive": 13.99,
+        "True Negative": 28.67,
+        "True Positive": 9.87
+      },
+      "Credit card (automatic)": {
+        "False Negative": 25.29,
+        "False Positive": 12.87,
+        "True Negative": 28.67,
+        "True Positive": 8.23
+      },
+      "Electronic check": {
+        "False Negative": 29.12,
+        "False Positive": 53.73,
+        "True Negative": 15.82,
+        "True Positive": 66.32
+      },
+      "Mailed check": {
+        "False Negative": 20.0,
+        "False Positive": 19.41,
+        "True Negative": 26.84,
+        "True Positive": 15.58
+      }
+    }
+  }
+}

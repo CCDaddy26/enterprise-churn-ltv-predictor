@@ -1,0 +1,19 @@
+{
+  "model_name": "xgboost_champion",
+  "algorithm": "XGBClassifier (Tuned)",
+  "phase": "Phase 2 Model Development",
+  "random_seed": 42,
+  "engineered_features_included": true,
+  "hyperparameters": {
+    "classifier__colsample_bytree": 0.8,
+    "classifier__learning_rate": 0.08,
+    "classifier__max_depth": 4,
+    "classifier__n_estimators": 100,
+    "classifier__scale_pos_weight": 2.5,
+    "classifier__subsample": 0.8
+  },
+  "dev_cv_average_precision": 0.6626,
+  "training_samples": 5634,
+  "target_positive_class": "1 (Churn)",
+  "disclaimer": "Experimental portfolio model. Not approved for automated production retention actions without human review."
+}

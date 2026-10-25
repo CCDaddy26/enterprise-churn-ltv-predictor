@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "checks_passed": 9,
+  "checks_failed": 0,
+  "details": {
+    "Raw Dataset File": {
+      "status": "PASS",
+      "message": "Located at D:\\Daniel\\projects\\project 1\\data\\raw\\Telco-Customer-Churn.csv (970,457 bytes)"
+    },
+    "Champion Pipeline Artifact": {
+      "status": "PASS",
+      "message": "Found at D:\\Daniel\\projects\\project 1\\models\\champion_pipeline.joblib (175,039 bytes)"
+    },
+    "Model Metadata Contract": {
+      "status": "PASS",
+      "message": "Valid JSON schema at D:\\Daniel\\projects\\project 1\\models\\model_metadata.json"
+    },
+    "Sigmoid Calibrator Artifact": {
+      "status": "PASS",
+      "message": "Found at D:\\Daniel\\projects\\project 1\\models\\sigmoid_calibrator.joblib (879 bytes)"
+    },
+    "Model Pipeline Immutability": {
+      "status": "PASS",
+      "message": "Champion artifact loaded in read-only mode without disk modification"
+    },
+    "Synthetic Batch Scoring": {
+      "status": "PASS",
+      "message": "Generated probability 0.8709 within [0.0, 1.0]"
+    },
+    "Calibrator Scoring": {
+      "status": "PASS",
+      "message": "Calibrated probability 0.7142 within [0.0, 1.0]"
+    },
+    "Financial Engine Logic": {
+      "status": "PASS",
+      "message": "Expected Remaining Contribution=840.0, Value-at-Risk=504.0"
+    },
+    "Zero-Cost Baseline ROI Safety": {
+      "status": "PASS",
+      "message": "No-campaign baseline correctly renders ROI as None / N/A rather than 0%"
+    }
+  }
+}
